@@ -360,19 +360,19 @@ def init_state(force_reset: bool = False):
     })
 
     st.session_state.top_med_names = [
-        "FB OPERACOES E NEGOCIOS", "PHOENIX GAMING LTDA", "DIGIMAIS TECNOLOGIA",
+        " OPERACOES E NEGOCIOS", "PHOEN GAMING LTDA", "DIGIMAIS TECNOLOGIA",
         "WITE RECUPERATION", "ALPHA BANK", "MERCURY PAY",
         "NOVA SOLUCAO", "TECH PIX", "CONTA CERTA", "GRUPO ATLAS"
     ]
     st.session_state.top_med_base = [3524, 2716, 731, 222, 17, 11, 5, 5, 4, 1]
 
     st.session_state.top_fin_names = [
-        "Phoenix Gaming", "FB Operações", "Digimais", "Alpha Bank", "Mercury Pay"
+        "Phoen Gaming", " Operações", "Digimais", "Alpha Bank", "Mercury Pay"
     ]
     st.session_state.top_fin_contas = ["11.946", "11.737", "11.552", "11.801", "11.902"]
 
     st.session_state.top_trx_names = [
-        "PHOENIX GAMING LTDA", "FB OPERACOES E NEGOCIOS", "DIGIMAIS TECNOLOGIA",
+        "PHOEN GAMING LTDA", " OPERACOES E NEGOCIOS", "DIGIMAIS TECNOLOGIA",
         "ALPHA BANK", "MERCURY PAY", "NOVA SOLUCAO",
         "TECH PIX", "CONTA CERTA", "GRUPO ATLAS", "PIX HUB"
     ]
@@ -386,9 +386,9 @@ def init_state(force_reset: bool = False):
     }
 
     st.session_state.med_cases = [
-        {"tag": "D+5", "id": 919, "empresa": "FB OPERACOES E NEGOCIOS", "criacao": "18/03", "prazo": "28/03", "dias": "5D", "valor": 2200.00},
-        {"tag": "D+5", "id": 965, "empresa": "FB OPERACOES E NEGOCIOS", "criacao": "18/03", "prazo": "28/03", "dias": "5D", "valor": 500.00},
-        {"tag": "VENCIDO", "id": 881, "empresa": "PHOENIX GAMING LTDA", "criacao": "13/03", "prazo": "23/03", "dias": "-1D", "valor": 8450.00},
+        {"tag": "D+5", "id": 919, "empresa": " OPERACOES E NEGOCIOS", "criacao": "18/03", "prazo": "28/03", "dias": "5D", "valor": 2200.00},
+        {"tag": "D+5", "id": 965, "empresa": " OPERACOES E NEGOCIOS", "criacao": "18/03", "prazo": "28/03", "dias": "5D", "valor": 500.00},
+        {"tag": "VENCIDO", "id": 881, "empresa": "PHOEN GAMING LTDA", "criacao": "13/03", "prazo": "23/03", "dias": "-1D", "valor": 8450.00},
         {"tag": "D0", "id": 902, "empresa": "DIGIMAIS TECNOLOGIA", "criacao": "14/03", "prazo": "24/03", "dias": "0D", "valor": 1300.00},
     ]
 
